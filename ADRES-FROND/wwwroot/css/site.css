@@ -1,34 +1,38 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+}
+* {
+    font-family:"Open Sans";
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .containedors {
-
     height: 100vh;
     width: 100%;
     position: fixed;
 }
-.LoginContent{
-    height:100vh;
-    width:100%;
-    display:flex;
-    justify-content:space-around;
+
+.LoginContent {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
+
 .ImagenLogin {
     height: 100vh;
     width: 100%;
@@ -36,6 +40,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .Login {
     background: #F2F2F2;
     height: 100vh;
@@ -44,16 +49,18 @@ body {
     justify-content: center;
     align-items: center;
 }
-.ContetLogin{
-    width:40%;
-    display:flex;
-    flex-flow:column;
-    justify-content:center;
+
+.ContetLogin {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
-.imagenUser{
-    width:100%;
-    display:flex;
-    justify-content:center;
+
+.imagenUser {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 :root {
@@ -192,3 +199,40 @@ body {
     border-radius: var(--border-radius);
 }
 
+.Contenidos-info {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    
+}
+.nav-item {
+    background-color: #77D9D9;
+    height: 64px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 20px;
+}
+
+    .nav-item:hover {
+        background-color: #2A3A59;
+        color: #ffffff;
+        transform: scale(1.05);
+    }

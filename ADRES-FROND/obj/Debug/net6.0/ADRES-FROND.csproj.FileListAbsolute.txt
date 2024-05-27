@@ -31,3 +31,4 @@ C:\Users\dfernafa\source\repos\ADRES\ADRES-FROND\ADRES-FROND\obj\Debug\net6.0\re
 C:\Users\dfernafa\source\repos\ADRES\ADRES-FROND\ADRES-FROND\obj\Debug\net6.0\ADRES-FROND.csproj.AssemblyReference.cache
 C:\Users\dfernafa\source\repos\ADRES\ADRES-FROND\ADRES-FROND\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\dfernafa\source\repos\ADRES\ADRES-FROND\ADRES-FROND\obj\Debug\net6.0\ADRES-FROND.csproj.CopyComplete
+C:\Users\dfernafa\source\repos\ADRES\ADRES-FROND\ADRES-FROND\obj\Debug\net6.0\ADRES-FROND.sourcelink.json

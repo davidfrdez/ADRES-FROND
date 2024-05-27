@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Img\\adres .png"
     },
     {
+      "Id": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\Img\\logo-adres.svg",
+      "PackagePath": "staticwebassets\\Img\\logo-adres.svg"
+    },
+    {
       "Id": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\Img\\user.png",
       "PackagePath": "staticwebassets\\Img\\user.png"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\js\\Contenido.js",
+      "PackagePath": "staticwebassets\\js\\Contenido.js"
     },
     {
       "Id": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\js\\site.js",

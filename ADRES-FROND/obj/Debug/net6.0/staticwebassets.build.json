@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KIOU19QfZflHDUPsKky9lLzieMn3HNTwq14oit2pUJs=",
+  "Hash": "frb+H5/VOxuVbPxW/u/a3kL7aXfYuXUWhiLhvVcOaEE=",
   "Source": "ADRES-FROND",
   "BasePath": "_content/ADRES-FROND",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\Img\\adres .png"
     },
     {
+      "Identity": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\Img\\logo-adres.svg",
+      "SourceId": "ADRES-FROND",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\",
+      "BasePath": "_content/ADRES-FROND",
+      "RelativePath": "Img/logo-adres.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\logo-adres.svg"
+    },
+    {
       "Identity": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\Img\\user.png",
       "SourceId": "ADRES-FROND",
       "SourceType": "Discovered",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\user.png"
+    },
+    {
+      "Identity": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\js\\Contenido.js",
+      "SourceId": "ADRES-FROND",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\",
+      "BasePath": "_content/ADRES-FROND",
+      "RelativePath": "js/Contenido.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Contenido.js"
     },
     {
       "Identity": "C:\\Users\\dfernafa\\source\\repos\\ADRES\\ADRES-FROND\\ADRES-FROND\\wwwroot\\js\\site.js",

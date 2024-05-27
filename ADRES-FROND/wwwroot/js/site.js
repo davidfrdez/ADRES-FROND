@@ -1,22 +1,24 @@
 ﻿
-const Login = () => {
-    let UserDTO = new Object;
-    UserDTO.Usuario = document.getElementById("Usuario").value;
-    UserDTO.PASS = document.getElementById("Contraseña").value;
+document.getElementById('loginForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const UserDTO = {
+        Usuario: document.getElementById("Usuario").value,
+        PASS: document.getElementById("Contraseña").value
+    };
     $.ajax({
         url: "/Home/Authentication",
         type: "POST",
         data: UserDTO,
-        success: (e) => {
-            if (e == 200) {
+        success: (response) => {
+            if (response == 200) {
+                console.log(response);
                 location.href = "/Home/Contenidos";
             } else {
-                alert("Contraseña y usuario " )
+                alert("Usuario o contraseña incorrectos");
             }
         },
-        error:(e) => {
-            console.log(e);
+        error: (error) => {
+            console.log(error);
         }
     });
-
-}
+});
