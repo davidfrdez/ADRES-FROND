@@ -1,0 +1,194 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.containedors {
+
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.LoginContent{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.ImagenLogin {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login {
+    background: #F2F2F2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContetLogin{
+    width:40%;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+}
+.imagenUser{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+:root {
+    --color-primary: #4B69A6;
+    --color-primary-hover: #3d5789; /* Color más oscuro para el hover */
+    --color-secondary: #2A3A59;
+    --color-secondary: #2A3A59;
+    --color-secondary-hover: #202b43; /* Color más oscuro para el hover */
+    --color-tertiary: #77D9D9;
+    --color-tertiary-hover: #63b2b2; /* Color más oscuro para el hover */
+    --color-quaternary: #14D9A1;
+    --color-quaternary-hover: #10ae81; /* Color más oscuro para el hover */
+    --color-light: #F2F2F2;
+    --color-light-hover: #e6e6e6; /* Color más oscuro para el hover */
+    --color-error: #D9534F;
+    --color-error-hover: #c23e3a; /* Color más oscuro para el hover */
+    --color-warning: #F0AD4E;
+    --color-warning-hover: #d99943; /* Color más oscuro para el hover */
+    --color-success: #5CB85C;
+    --color-success-hover: #4cae4c; /* Color más oscuro para el hover */
+    --color-info: #5BC0DE;
+    --color-info-hover: #46b8da; /* Color más oscuro para el hover */
+    --border-radius: 7px;
+}
+
+/* Botón primario */
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    border-radius: var(--border-radius);
+}
+
+    .btn-primary:hover {
+        background-color: var(--color-primary-hover);
+        border-color: var(--color-primary-hover);
+    }
+
+/* Botón secundario */
+.btn-secondary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    border-radius: var(--border-radius);
+}
+
+    .btn-secondary:hover {
+        background-color: var(--color-secondary-hover);
+        border-color: var(--color-secondary-hover);
+    }
+
+/* Botón terciario */
+.btn-tertiary {
+    background-color: var(--color-tertiary);
+    border-color: var(--color-tertiary);
+    border-radius: var(--border-radius);
+}
+
+    .btn-tertiary:hover {
+        background-color: var(--color-tertiary-hover);
+        border-color: var(--color-tertiary-hover);
+    }
+
+/* Botón cuarto */
+.btn-quaternary {
+    background-color: var(--color-quaternary);
+    border-color: var(--color-quaternary);
+    border-radius: var(--border-radius);
+}
+
+    .btn-quaternary:hover {
+        background-color: var(--color-quaternary-hover);
+        border-color: var(--color-quaternary-hover);
+    }
+
+/* Botón claro */
+.btn-light {
+    background-color: var(--color-light);
+    border-color: var(--color-light);
+    border-radius: var(--border-radius);
+}
+
+    .btn-light:hover {
+        background-color: var(--color-light-hover);
+        border-color: var(--color-light-hover);
+    }
+
+/* Botón de error */
+.btn-error {
+    background-color: var(--color-error);
+    border-color: var(--color-error);
+    border-radius: var(--border-radius);
+}
+
+    .btn-error:hover {
+        background-color: var(--color-error-hover);
+        border-color: var(--color-error-hover);
+    }
+
+/* Botón de advertencia */
+.btn-warning {
+    background-color: var(--color-warning);
+    border-color: var(--color-warning);
+    border-radius: var(--border-radius);
+}
+
+    .btn-warning:hover {
+        background-color: var(--color-warning-hover);
+        border-color: var(--color-warning-hover);
+    }
+
+/* Botón de éxito */
+.btn-success {
+    background-color: var(--color-success);
+    border-color: var(--color-success);
+    border-radius: var(--border-radius);
+}
+
+    .btn-success:hover {
+        background-color: var(--color-success-hover);
+        border-color: var(--color-success-hover);
+    }
+
+/* Botón de información */
+.btn-info {
+    background-color: var(--color-info);
+    border-color: var(--color-info);
+    border-radius: var(--border-radius);
+}
+
+    .btn-info:hover {
+        background-color: var(--color-info-hover);
+        border-color: var(--color-info-hover);
+    }
+
+/* Otros botones con estilo común */
+.btns {
+    border-radius: var(--border-radius);
+}
+
